@@ -85,13 +85,14 @@
             Controls.Add(lblInfo);
             Controls.Add(btnContinue);
             Controls.Add(lblTextQuest);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormIntro";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Детективный текстовый квест";
+            FormClosing += FormInfo_FormClosing;
             ResumeLayout(false);
-            this.FormClosing += FormInfo_FormClosing;
         }
 
         #endregion
