@@ -91,6 +91,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Детективный текстовый квест";
             ResumeLayout(false);
+            this.FormClosing += FormInfo_FormClosing;
         }
 
         #endregion
