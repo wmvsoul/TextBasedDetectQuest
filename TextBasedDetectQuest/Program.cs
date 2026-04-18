@@ -19,6 +19,7 @@ namespace TextBasedDetectQuest
             Application.EnableVisualStyles();
             //режим рендеринга текста
             Application.SetCompatibleTextRenderingDefault(false);
+
             //объект формы вступления
             using (var intro = new FormIntro())
             {
@@ -30,8 +31,11 @@ namespace TextBasedDetectQuest
                 creation.ShowDialog();
             }
 
-            FormGame game = new FormGame(); //главное игровое меню
-            Application.Run(game);
+            //игра, запуск только если персонаж создан
+            if (GameData.CurrentPlayer != null)
+            {
+                Application.Run(new FormGame());
+            }
         }
     }
 }

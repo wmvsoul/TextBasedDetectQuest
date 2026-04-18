@@ -23,4 +23,12 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DetectiveGameLogic\DetectiveGameLogic.csproj" />
+  </ItemGroup>
+
 </Project>
