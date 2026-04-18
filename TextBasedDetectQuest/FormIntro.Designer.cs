@@ -53,7 +53,7 @@
             btnContinue.Cursor = Cursors.Hand;
             btnContinue.FlatAppearance.BorderSize = 0;
             btnContinue.FlatStyle = FlatStyle.Flat;
-            btnContinue.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            btnContinue.Font = new Font("Georgia", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btnContinue.ForeColor = Color.FromArgb(30, 25, 20);
             btnContinue.Location = new Point(370, 670);
             btnContinue.Name = "btnContinue";
