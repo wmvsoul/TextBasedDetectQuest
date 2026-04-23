@@ -86,7 +86,7 @@
             tbNameCharacter.Font = new Font("Georgia", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 204);
             tbNameCharacter.ForeColor = Color.FromArgb(30, 25, 20);
             tbNameCharacter.Location = new Point(215, 112);
-            tbNameCharacter.MaxLength = 30;
+            tbNameCharacter.MaxLength = 10;
             tbNameCharacter.Name = "tbNameCharacter";
             tbNameCharacter.Size = new Size(257, 27);
             tbNameCharacter.TabIndex = 1;
