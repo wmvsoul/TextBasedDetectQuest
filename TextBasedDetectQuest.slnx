@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="DetectiveGameLogic/DetectiveGameLogic.csproj" Id="7b211c3c-74fe-47a1-bb2d-d0555257d7f6" />
+  <Project Path="Tests/Tests.csproj" Id="0ff7245b-e2bd-438b-b1e8-cefe1e4ea78e" />
   <Project Path="TextBasedDetectQuest/TextBasedDetectQuest.csproj" />
 </Solution>
